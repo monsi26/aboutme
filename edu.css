@@ -1,0 +1,41 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("coding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+h1
+{
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+table, td, th
+{
+    border: 5px solid white;
+    border-collapse: collapse;
+    color: white;
+    font-size: 50px;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+th
+{
+    color:blanchedalmond;
+}
+
+tr:nth-child(even)
+{
+    background-color: gray;
+}
